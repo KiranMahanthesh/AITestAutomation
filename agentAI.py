@@ -31,7 +31,7 @@ async def click_cart_page(browser : BrowserContext):
 
 async def SiteValidation():
     os.environ[
-        "GEMINI_API_KEY"] = "AIzaSyDBlW_6KrEO52dCKKAppENCLBDTn9UnnqU"  # Consider replacing this with a valid secure value
+        "GEMINI_API_KEY"] = ""  # Consider replacing this with a valid secure value
 
     task = (
         'Important: I am a UI Automation tester validating the tasks '
